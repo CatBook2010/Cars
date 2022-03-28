@@ -1,28 +1,14 @@
 Here are all properties of the Car:
-	Registration number: jjj.
-	Make: BMW H 5.
-	Model: 2022.
-	Millage: 50000.
-	Price: 500000.
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
 	Doors: 4.
-Here are all properties of the Car:
-	Registration number: gggg.
-	Make: rh.
-	Model: 5.
-	Millage: 5352.
-	Price: 2.
-	Doors: 2.
 Here are all properties of the Truck:
-	Registration number: 2.
-	Make: 2.
-	Model: 2.
-	Millage: 2.
-	Price: 2.
-	Drivetype: 2.
-Here are all properties of the SUV:
-	Registration number: 3.
-	Make: 3.
-	Model: 3.
-	Millage: 3.
-	Price: 3.
-	Number of passengers: 3.
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 200000.
+	Drivetype: 1.
