@@ -7,7 +7,8 @@ while going:
     print("        MENU\n1) New car\n2) New truck\n3) New SUV\n4) Find vehicles by make\n5) Show all vehicles\n6) Check vehicles for speed violation\n7) Quit")
 
     num = int(input("Enter your choice: "))
-
+    print()
+    print()
     if num == 1:
         functions.update_data("car", vehicles_list)
     elif num == 2:
@@ -30,3 +31,27 @@ while going:
     print()
 
 print("Exiting the program...")
+
+# Here are all properties of the Car:
+#     Registration number: OHM32.
+#     Make: BMW X5.
+#     Model: 2020.
+#     Millage: 190.
+#     Price: 10000.
+#     Doors: 4.
+
+# Here are all properties of the Truck:
+#     Registration number: YUI56T.
+#     Make: Ford Pocus.
+#     Model: 2019.
+#     Millage: 19000.
+#     Price: 200000.
+#     Drivetype: 1.
+
+# Here are all properties of the SUV:
+#     Registration number: EL45642.
+#     Make: MERCEDES G W460.
+#     Model: 2022.
+#     Millage: 300.
+#     Price: 800000.
+#     Number of passengers: 4.

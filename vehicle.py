@@ -1,5 +1,6 @@
 from speed_ticket import SpeedTicket
 import pickle
+from file_handler import write_car_info_from_pickle_file
 
 # 3. Внесите изменения в класс Vehicle из предыдущей отправки, добавьте поле для регистрационного номера.
 
@@ -12,6 +13,7 @@ class Vehicle:
         self.model = model
         self.millage = millage
         self.price = price
+        self.speed_tickets = []
 
     def __str__(self):
         return (f"Here are all properties of the {type(self).__name__}:"
@@ -20,9 +22,8 @@ class Vehicle:
             f"\n\tModel: {self.model}."
             f"\n\tMillage: {self.millage}."
             f"\n\tPrice: {self.price}.")
+
+    def add_speed_ticket(self, speed_ticket: SpeedTicket) -> None:
+        self.speed_tickets.append(speed_ticket)
     
-    def registrate_violation(self, time, speed, speed_limit):
-        new_speed_ticket = SpeedTicket(self.reg_num, time, speed_limit)
-        with open("speed_tickets.pickle", "wb") as speed_tickets:
-            speed_tickets.write(str(new_speed_ticket))
-            
+    
