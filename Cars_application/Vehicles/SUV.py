@@ -1,4 +1,4 @@
-from vehicle import Vehicle
+from Vehicles.vehicle import Vehicle
 
 class SUV(Vehicle):
     def __init__(self, reg_num, make, model, millage, price, num_of_passengers):

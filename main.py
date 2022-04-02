@@ -1,57 +1,8 @@
-import functions
-from pprint import pprint
+import os
 
-going = True
-while going:
-    vehicles_list = functions.write_car_info_from_pickle_file("vehicles.pickle")
-    print("        MENU\n1) New car\n2) New truck\n3) New SUV\n4) Find vehicles by make\n5) Show all vehicles\n6) Check vehicles for speed violation\n7) Quit")
+folder = "Cars_application"
+filename = "main.py"
 
-    num = int(input("Enter your choice: "))
-    print()
-    print()
-    if num == 1:
-        functions.update_data("car", vehicles_list)
-    elif num == 2:
-        functions.update_data("truck", vehicles_list)
-    elif num == 3:
-        functions.update_data("SUV", vehicles_list)
-    elif num == 4:
-        functions.find_vehicles_by_make()
-    elif num == 5:
-        vehicle_in_dict = functions.print_all_vehicles(vehicles_list)
-        # vehicle_list = functions.write_car_info_from_pickle_file("vehicles.pickle")
-        # pprint(vehicle_list)
-    elif num == 6:
-        functions.find_violate_vehicles()
-    elif num == 7:
-        going = False
-    else:
-        print("Please, write a nummber from 1 to 7.")
+print(f"Run the file: '{filename}' \nfrom folder: '{folder}'")
+os.system(f'python "{folder}"/"{filename}"')
 
-    print()
-
-print("Exiting the program...")
-
-# Here are all properties of the Car:
-#     Registration number: OHM32.
-#     Make: BMW X5.
-#     Model: 2020.
-#     Millage: 190.
-#     Price: 10000.
-#     Doors: 4.
-
-# Here are all properties of the Truck:
-#     Registration number: YUI56T.
-#     Make: Ford Pocus.
-#     Model: 2019.
-#     Millage: 19000.
-#     Price: 200000.
-#     Drivetype: 1.
-
-# Here are all properties of the SUV:
-#     Registration number: EL45642.
-#     Make: MERCEDES G W460.
-#     Model: 2022.
-#     Millage: 300.
-#     Price: 800000.
-#     Number of passengers: 4.

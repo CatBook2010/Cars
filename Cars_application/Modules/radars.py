@@ -38,8 +38,8 @@ def seconds_betweeen(date1: str, date2: str):
 # {'FY99401': (72.289, '2022-01-03 07:22:33'), 'DA49644': (68.441, '2022-01-03 07:27:14'), 'SY60306': (78.260, '2022-01-03 08:03:11')}
 
 def listSpeeders(filename_a, filename_b, speed_limit, distance):
-    dict_a = fileToDictionary(filename_a, ", ")
-    dict_b = fileToDictionary(filename_b, ", ")
+    dict_a = fileToDictionary("Cars_application/Source/" + filename_a, ", ")
+    dict_b = fileToDictionary("Cars_application/Source/" + filename_b, ", ")
 
     violators = {}
     
