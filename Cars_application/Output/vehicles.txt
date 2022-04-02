@@ -1,0 +1,147 @@
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the Car:
+	Registration number: FY42662.
+	Make: BMW X3.
+	Model: 2019.
+	Millage: 500.
+	Price: 8000.
+	Doors: 4.
+Here are all properties of the Car:
+	Registration number: FY42662.
+	Make: BMW X3.
+	Model: 2019.
+	Millage: 500.
+	Price: 8000.
+	Doors: 4.
+Here are all properties of the Car:
+	Registration number: OHM32.
+	Make: BMW X5.
+	Model: 2020.
+	Millage: 190.
+	Price: 10000.
+	Doors: 4.
+Here are all properties of the Truck:
+	Registration number: YUI56T.
+	Make: Ford Pocus.
+	Model: 2019.
+	Millage: 19000.
+	Price: 20000.
+	Drivetype: 1.
+Here are all properties of the Car:
+	Registration number: YN80136.
+	Make: MERCEDES E3.
+	Model: 2014.
+	Millage: 9000.
+	Price: 15000.
+	Doors: 4.
+Here are all properties of the SUV:
+	Registration number: EL45642.
+	Make: MERCEDES G W460.
+	Model: 2022.
+	Millage: 300.
+	Price: 80000.
+	Number of passengers: 4.
