@@ -13,7 +13,7 @@ class MenuChoices:
         print('6) Check vehicles for speed violation')
         print('7) Quit')
 
-    @classmethod
+    @classmethod # Конструктор / Constructor - надстройка (методу)
     def process_choice(self):
         NEW_CAR_CHOICE = 1
         NEW_TRUCK_CHOICE = 2
@@ -27,6 +27,7 @@ class MenuChoices:
         
         while choice != QUIT_CHOICE:
             vehicles_list = FileHandler.write_car_info_from_pickle_file("vehicles.pickle")
+
             self.display_menu()
             choice = int(input("Enter your choice: "))
             print()
@@ -50,7 +51,7 @@ class MenuChoices:
                 MenuOptions.find_violate_vehicles()
                 
             elif choice == QUIT_CHOICE:
-                going = False
+                choice = 7
                 
             else:
                 print("Please, write a choicember from 1 to 7.")

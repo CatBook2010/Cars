@@ -1,7 +1,7 @@
 from Vehicles.car import Car
-from Vehicles.truck import Truck
-from Vehicles.SUV import SUV
-from Vehicles.speed_ticket import SpeedTicket
+# from Vehicles.truck import Truck
+# from Vehicles.SUV import SUV
+# from Vehicles.speed_ticket import SpeedTicket
 import pickle
 
 class FileHandler:
@@ -26,7 +26,6 @@ class FileHandler:
             while True:
                 try:
                     vehicle = pickle.load(pickle_file)
-                    print(vehicle)
                     vehicle_list.append(vehicle)
                 except EOFError:
                     break
