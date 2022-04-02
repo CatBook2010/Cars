@@ -1,6 +1,10 @@
 from menu_choices import MenuChoices
 
-MenuChoices.process_choice()
+def main():
+    MenuChoices.process_choice()
+
+if __name__ == '__main__':
+    main()
 
 
 # Here are all properties of the Car:
